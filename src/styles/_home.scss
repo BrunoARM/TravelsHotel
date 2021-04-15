@@ -1,0 +1,356 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero1.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+    width: 35%;
+    color: #fff;
+  }
+  span {
+    color: #2781ee;
+  }
+  .btn-white {
+    margin-top: 2rem;
+    border: 3px solid #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    color: #fff;
+    background: transparent;
+    transition: background 0.3s ease-in;
+    &:hover {
+      background: #2781ee;
+    }
+  }
+}
+.container {
+  width: 100%;
+  .cta-pools {
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    display: flex;
+    margin-top: 4rem;
+    background: #fffbfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      h2 {
+        font-size: 50px;
+        font-weight: 500;
+      }
+      span {
+        color: #2781ee;
+      }
+      .btn-blue {
+        margin-top: 2rem;
+        border: 3px solid #2781ee;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        color: #2781ee;
+        background: transparent;
+        transition: all 0.3s ease-in;
+        &:hover {
+          background: #2781ee;
+          color: #fff;
+        }
+      }
+    }
+    &__right {
+      width: 49%;
+      background: url("../img/pool1.jpg") center no-repeat;
+      background-size: cover;
+      position: relative;
+      top: -2rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+  .cta-facilities {
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    display: flex;
+    margin-top: 45%;
+    background: #fffbfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      h2 {
+        font-size: 50px;
+        font-weight: 500;
+      }
+      span {
+        color: #2781ee;
+      }
+      .btn-blue {
+        margin-top: 2rem;
+        border: 3px solid #2781ee;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        color: #2781ee;
+        background: transparent;
+        transition: all 0.3s ease-in;
+        &:hover {
+          background: #2781ee;
+          color: #fff;
+        }
+      }
+    }
+    &__left {
+      width: 49%;
+      margin-left: 1rem;
+      background: url("../img/cta2.jpg") center no-repeat;
+      background-size: cover;
+      position: relative;
+      bottom: -2rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+  .cta-great-time {
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    display: flex;
+    margin-top: 90%;
+    background: #fffbfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      h2 {
+        font-size: 50px;
+        font-weight: 500;
+      }
+      span {
+        color: #2781ee;
+      }
+      .btn-blue {
+        margin-top: 2rem;
+        border: 3px solid #2781ee;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        color: #2781ee;
+        background: transparent;
+        transition: all 0.3s ease-in;
+        &:hover {
+          background: #2781ee;
+          color: #fff;
+        }
+      }
+    }
+    &__right {
+      width: 49%;
+      background: url("../img/pool2.jpg") center no-repeat;
+      background-size: cover;
+      position: relative;
+      top: -2rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+  .rooms {
+    width: 100%;
+    margin-top: 135%;
+    position: absolute;
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    &__container {
+      width: 90%;
+      margin: 5rem auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .category {
+        height: 422px;
+        width: 396px;
+        background: #ffffff;
+        border: 2px solid #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        img {
+          width: 100%;
+          height: 253px;
+          border-radius: 15px 15px 0px 0px;
+        }
+        &__title {
+          text-align: center;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 4rem;
+          a {
+            text-decoration: none;
+            color: #000;
+            transition: color 0.3s ease-in;
+            &:hover {
+              color: #2781ee;
+            }
+          }
+        }
+      }
+    }
+  }
+  .cta-meals {
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    display: flex;
+    margin-top: 177%;
+    background: #fffbfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &__right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      h2 {
+        font-size: 50px;
+        font-weight: 500;
+        width: 75%;
+      }
+      span {
+        color: #2781ee;
+      }
+      .btn-blue {
+        margin-top: 2rem;
+        border: 3px solid #2781ee;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        color: #2781ee;
+        background: transparent;
+        transition: all 0.3s ease-in;
+        &:hover {
+          background: #2781ee;
+          color: #fff;
+        }
+      }
+    }
+    &__left {
+      width: 49%;
+      margin-left: 1rem;
+      background: url("../img/meals.jpg") center no-repeat;
+      background-size: cover;
+      position: relative;
+      bottom: -2rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 470px;
+  margin-top: 222%;
+  background: linear-gradient(90deg, #141e30 14.06%, #243b55 78.02%);
+  color: #fff;
+  .footer-container {
+    width: 99%;
+    height: 450px;
+    margin: 10px auto;
+    background: rgba(196, 196, 196, 0.09);
+    border: 1px solid #fffdfd;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .hotel-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0.5rem;
+      img {
+        width: 388px;
+        height: 432px;
+      }
+      .contact {
+        margin-left: 2rem;
+        h2 {
+          font-size: 25px;
+          font-weight: bold;
+        }
+        span {
+          color: #2781ee;
+        }
+        h2,
+        p {
+          padding: 2rem 0rem;
+        }
+      }
+    }
+    .social-links {
+      span {
+        color: #2781ee;
+      }
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        margin-top: 1rem;
+      }
+      h2, a {
+        padding: 2rem 0rem;
+      }
+      a {
+        text-decoration: none;
+        i {
+          color: #fff;
+          font-size: 2rem;
+          transition: all .3s ease-in;
+          &:hover {
+            color: #2781ee;
+          }
+        }
+      }
+    }
+    .quick-links {
+      span {
+        color: #2781ee;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        margin: 2rem;
+      }
+      &__list {
+        list-style-type: none;
+        li {
+          padding: 1rem 0rem;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 15px;
+          transition: color .3s ease-in;
+          &:hover {
+            color: #2781ee;
+          }
+        }
+      }
+    }
+  }
+}

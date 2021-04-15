@@ -1,0 +1,17 @@
+@import './styles/nav';
+@import './styles/home';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    padding: 1rem 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
