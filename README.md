@@ -1,3 +1,3 @@
 # TravelsHotel
 
-A hotel landing page of a Hotel, Designed and implemented by me.
+A hotel landing page, designed and implemented by me.
